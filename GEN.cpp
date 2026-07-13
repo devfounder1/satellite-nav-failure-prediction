@@ -1,5 +1,4 @@
 // log_generator.cpp
-// Компиляция: g++ -O2 -std=c++17 log_generator.cpp -o log_generator
 #include <iostream>
 #include <fstream>
 #include <vector>

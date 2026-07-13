@@ -1,5 +1,5 @@
 # demo_case_study.py
-#визуализация кейсов
+# Профессиональная визуализация кейсов (без эмодзи, исправлена вёрстка)
 import os
 import sys
 import subprocess
@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import joblib
 import warnings
 
-# Скрываем технические предупреждения TensorFlow
+# Скрываем технические предупреждения (TensorFlow)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 warnings.filterwarnings("ignore")
 
@@ -143,7 +143,7 @@ def analyze_module(device_id, df, mlp_model, scaler_cls, lstm_model, scaler_lstm
     ax1.text(fail_time, 48, f'[FAILURE]\nC/N0 < 30\n{fail_time:.0f} h', ha='center', color='red', fontweight='bold', fontsize=10,
              bbox=dict(facecolor='white', alpha=0.95, edgecolor='red', boxstyle='round,pad=0.3'))
     
-    # --- Инфоблок (чистый ASCII) ---
+    # --- Инфоблок (чистый ASCII, безопасное позиционирование) ---
     info_lines = [
         "[STATUS] MODULE #" + str(device_id),
         "-------------------",
