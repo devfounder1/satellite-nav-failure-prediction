@@ -68,7 +68,7 @@ The project is divided into three modular components:
 ![Model Comparison](images/final_results.png)
 
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
