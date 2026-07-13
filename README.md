@@ -105,8 +105,6 @@ python main_pipeline.py
 python demo_case_study.py
 ```
 
-### 3. **Dataset**
-
 ## Dataset
 
 ### Features
@@ -135,7 +133,7 @@ The C++ generator uses **Mersenne Twister** (SEED=42) for reproducible degradati
 
 > **Note:** The dataset is generated automatically when you run `main_pipeline.py`. No manual download required.
 
-##  Model Performance
+## Model Performance
 
 ### Classification Models (Risk Detection)
 
