@@ -44,9 +44,9 @@ def run_cpp_generator():
     start = time.time()
     try:
         result = subprocess.run([exe_name], capture_output=True, text=True)
-        print(f"⏱ Время генерации: {time.time()-start:.3f} сек.")
+        print(f"Время генерации: {time.time()-start:.3f} сек.")
         if result.returncode == 0:
-            print("✅ satellite_logs.csv создан")
+            print("satellite_logs.csv создан")
             return True
         return False
     except Exception as e:
@@ -141,7 +141,7 @@ def run_ml_pipeline():
     lstm_mae = mean_absolute_error(scaler_rul.inverse_transform(y_lstm_test.reshape(-1, 1)).flatten(), lstm_pred)
 
     # ================= NEURAL NETWORK (Классификация) =================
-    print("🧠 Обучение Neural Network (Классификация)...")
+    print("Обучение Neural Network (Классификация)...")
     mlp_clf = MLPClassifier(hidden_layer_sizes=(128, 64, 32), max_iter=300, random_state=42, verbose=False)
     mlp_clf.fit(X_train_cls_sc, y_train_risk)
     nn_proba = mlp_clf.predict_proba(X_test_cls_sc)[:, 1]
