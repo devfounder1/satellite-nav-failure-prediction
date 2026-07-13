@@ -32,19 +32,8 @@ The project is divided into three modular components:
 3. `demo_case_study.py` (Inference & Visualization) 
    Loads the trained models and generates professional, 3-panel analytical reports for specific devices. Visualizes raw signal trends, risk probability over time, and RUL forecasts, highlighting early warning triggers and calculated "time saved".
 
-##Results & Visualizations
-The pipeline automatically generates analytical artifacts:
-- Confusion Matrices: Comparing RF, NN, and Hybrid system performance.
-- Feature Importance: Identifying key degradation drivers (e.g., C/N₀, timing drift).
-- Case Study Reports: Multi-panel time-series plots showing the exact moment the system triggers an alarm before actual failure.
+### Прогнозирование остаточного ресурса (RUL) и вероятности отказа
+![Case Study Analysis](images/case_studies/module_0_case_PRO.png)
 
-*(Note: Run the pipeline to generate `final_results.png` and `case_studies/` graphs)*
-
-## How to Run
-
-### 1. Prerequisites
-Ensure you have Python 3.8+ and a C++17 compiler (e.g., `g++` or MSVC) installed.
-
-### 2. Install Python Dependencies
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn tensorflow joblib
+### Сравнение моделей и важность признаков
+![Model Comparison](images/final_results.png)
