@@ -91,9 +91,7 @@ pip install -r requirements.txt
 3. **Compile the C++ data generator:**
 ```bash
 g++ -O2 -std=c++17 GEN.cpp -o GEN
-```
 # On Windows:
-```bash
 g++ -O2 -std=c++17 GEN.cpp -o GEN.exe
 ```
 
