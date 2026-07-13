@@ -2,17 +2,17 @@
 
 ## About the project
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [About](#about-the-project)
-- [Key Achievements](#key-achievements--impact)
+- [About the project](#about-the-project)
+- [Key Achievements & Impact](#key-achievements--impact)
 - [Tech Stack](#tech-stack)
 - [System Architecture](#system-architecture)
-- [Quick Start](#-quick-start)
-- [Dataset](#-dataset)
-- [Model Performance](#-model-performance)
-- [Project Structure](#-project-structure)
-- [Author](#-author)
+- [Quick Start](#quick-start)
+- [Dataset](#dataset)
+- [Model Performance](#model-performance)
+- [Project Structure](#project-structure)
+- [Author](#author)
 
 **Problem:** Traditional methods of monitoring navigation equipment work on fixed thresholds and calendar maintenance, which leads to the miss of dangerous degradation or false alarms.
 
